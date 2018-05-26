@@ -17,6 +17,11 @@ User must sign in to check out
     Wait Until Page Contains Back to search results
     Click Button id = add-to-cart-button
     Wait Until Page Contains 1 item added to Cart
+
+    Click Link Proceed to Checkout
+    Page Should Contain Element ap_signin1a_pagelet_title
+    Element Text Should Be ap_signin1a_pagelet_title Sign In
+    
     Close Browser
 
 *** Keywords ***
