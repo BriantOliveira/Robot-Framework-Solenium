@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20180526 12:18:39.945" generator="Robot 3.0.4 (Python 2.7.10 on darwin)">
-<suite source="/Users/elliotbriant/Documents/Robot-Framework/amazon/Tests/amazon.robot" id="s1" name="Amazon">
+<robot generated="20180526 14:58:49.938" generator="Robot 3.0.4 (Python 2.7.10 on darwin)">
+<suite source="/Users/elliotbriant/Documents/Robot-Framework/amazon/tests/Amazon.robot" id="s1" name="Amazon">
 <test id="s1-t1" name="User must sign in to check out">
-<kw name="Open Browser http://www.amazon.com chrome">
-<msg timestamp="20180526 12:18:40.126" level="FAIL">No keyword with name 'Open Browser http://www.amazon.com chrome' found.</msg>
-<status status="FAIL" endtime="20180526 12:18:40.126" starttime="20180526 12:18:40.126"></status>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20180526 14:58:50.042" level="INFO">Opening browser 'Chrome' to base url 'http://www.amazon.com'.</msg>
+<status status="PASS" endtime="20180526 14:58:55.579" starttime="20180526 14:58:50.042"></status>
+</kw>
+<kw name="Wait Until Page Contains Your">
+<arguments>
+<arg>Amazon.com</arg>
+</arguments>
+<msg timestamp="20180526 14:58:55.586" level="FAIL">No keyword with name 'Wait Until Page Contains Your' found. Did you mean:
+    SeleniumLibrary.Wait Until Page Contains</msg>
+<status status="FAIL" endtime="20180526 14:58:55.586" starttime="20180526 14:58:55.585"></status>
 </kw>
 <doc>This is a simple test</doc>
 <tags>
 <tag>Smoke</tag>
 </tags>
-<status status="FAIL" endtime="20180526 12:18:40.127" critical="yes" starttime="20180526 12:18:40.121">No keyword with name 'Open Browser http://www.amazon.com chrome' found.</status>
+<status status="FAIL" endtime="20180526 14:58:55.586" critical="yes" starttime="20180526 14:58:50.041">No keyword with name 'Wait Until Page Contains Your' found. Did you mean:
+    SeleniumLibrary.Wait Until Page Contains</status>
 </test>
 <doc>This is some basic test case</doc>
-<status status="FAIL" endtime="20180526 12:18:40.127" starttime="20180526 12:18:39.947"></status>
+<status status="FAIL" endtime="20180526 14:58:55.588" starttime="20180526 14:58:49.945"></status>
 </suite>
 <statistics>
 <total>
