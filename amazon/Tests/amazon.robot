@@ -1,8 +1,7 @@
 *** Settings ***
 Documentation  This is some basic test case
 Library  SeleniumLibrary
-Library  OperatingSystem
-Suite Setup  Setup chromedriver
+
 *** Variables ***
 
 
@@ -14,5 +13,4 @@ User must sign in to check out
     Close Browser
 
 *** Keywords ***
-Setup chromedriver
-  Set Environment Variable  webdriver.chrome.driver  ${EXECDIR}/chromedriver.exe  
+

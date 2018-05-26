@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180526 12:18:39.945" generator="Robot 3.0.4 (Python 2.7.10 on darwin)">
+<suite source="/Users/elliotbriant/Documents/Robot-Framework/amazon/Tests/amazon.robot" id="s1" name="Amazon">
+<test id="s1-t1" name="User must sign in to check out">
+<kw name="Open Browser http://www.amazon.com chrome">
+<msg timestamp="20180526 12:18:40.126" level="FAIL">No keyword with name 'Open Browser http://www.amazon.com chrome' found.</msg>
+<status status="FAIL" endtime="20180526 12:18:40.126" starttime="20180526 12:18:40.126"></status>
+</kw>
+<doc>This is a simple test</doc>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="FAIL" endtime="20180526 12:18:40.127" critical="yes" starttime="20180526 12:18:40.121">No keyword with name 'Open Browser http://www.amazon.com chrome' found.</status>
+</test>
+<doc>This is some basic test case</doc>
+<status status="FAIL" endtime="20180526 12:18:40.127" starttime="20180526 12:18:39.947"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+<stat fail="1" pass="0">Smoke</stat>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Amazon" pass="0">Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

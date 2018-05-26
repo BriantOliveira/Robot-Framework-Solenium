@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20180525 17:00:04.159" generator="Robot 3.0.4 (Python 2.7.10 on darwin)">
+<robot generated="20180525 17:01:49.394" generator="Robot 3.0.4 (Python 2.7.10 on darwin)">
 <suite source="/Users/elliotbriant/Documents/Robot-Framework/amazon/Tests/amazon.robot" id="s1" name="Amazon">
 <kw type="setup" name="Setup chromedriver">
 <kw name="Set Environment Variable" library="OperatingSystem">
@@ -8,24 +8,24 @@
 <arg>webdriver.chrome.driver</arg>
 <arg>${EXECDIR}/chromedriver.exe</arg>
 </arguments>
-<msg timestamp="20180525 17:00:04.296" level="INFO">Environment variable 'webdriver.chrome.driver' set to value '/Users/elliotbriant/Documents/Robot-Framework/amazon/Tests/chromedriver.exe'.</msg>
-<status status="PASS" endtime="20180525 17:00:04.296" starttime="20180525 17:00:04.296"></status>
+<msg timestamp="20180525 17:01:49.502" level="INFO">Environment variable 'webdriver.chrome.driver' set to value '/Users/elliotbriant/Documents/Robot-Framework/amazon/Tests/chromedriver.exe'.</msg>
+<status status="PASS" endtime="20180525 17:01:49.502" starttime="20180525 17:01:49.501"></status>
 </kw>
-<status status="PASS" endtime="20180525 17:00:04.296" starttime="20180525 17:00:04.295"></status>
+<status status="PASS" endtime="20180525 17:01:49.502" starttime="20180525 17:01:49.501"></status>
 </kw>
 <test id="s1-t1" name="User must sign in to check out">
 <kw name="Open Browser http://www.amazon.com chrome">
-<msg timestamp="20180525 17:00:04.304" level="FAIL">No keyword with name 'Open Browser http://www.amazon.com chrome' found.</msg>
-<status status="FAIL" endtime="20180525 17:00:04.304" starttime="20180525 17:00:04.304"></status>
+<msg timestamp="20180525 17:01:49.509" level="FAIL">No keyword with name 'Open Browser http://www.amazon.com chrome' found.</msg>
+<status status="FAIL" endtime="20180525 17:01:49.509" starttime="20180525 17:01:49.509"></status>
 </kw>
 <doc>This is a simple test</doc>
 <tags>
 <tag>Smoke</tag>
 </tags>
-<status status="FAIL" endtime="20180525 17:00:04.304" critical="yes" starttime="20180525 17:00:04.296">No keyword with name 'Open Browser http://www.amazon.com chrome' found.</status>
+<status status="FAIL" endtime="20180525 17:01:49.509" critical="yes" starttime="20180525 17:01:49.502">No keyword with name 'Open Browser http://www.amazon.com chrome' found.</status>
 </test>
 <doc>This is some basic test case</doc>
-<status status="FAIL" endtime="20180525 17:00:04.305" starttime="20180525 17:00:04.167"></status>
+<status status="FAIL" endtime="20180525 17:01:49.510" starttime="20180525 17:01:49.400"></status>
 </suite>
 <statistics>
 <total>
